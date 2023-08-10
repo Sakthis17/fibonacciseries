@@ -1,0 +1,19 @@
+import java.util.*;
+public class fibonacciseries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc =new Scanner(System.in);
+				int sum=0,n1=-1,n2=1;
+		int n=sc.nextInt();
+		for(int i=1;i<=n;i++) {
+			sum=n1+n2;
+			System.out.print(sum+" ");
+			n1=n2;
+			n2=sum;
+		}
+		
+
+	}
+
+}
